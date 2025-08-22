@@ -8,14 +8,14 @@ description: "Comprehensive guide to FixMyPDF's 70+ browser-based PDF tools. Lea
 
 Discover the right tool for every PDF task with FixMyPDF's comprehensive toolkit.
 
-## 🗜️ Compression & Optimization
+## <i class="fas fa-compress-alt"></i> Compression & Optimization
 
 **[PDF Compressor](https://fixmypdf.in/compressor.html)**
 - Reduce file sizes by up to 90%
 - Multiple compression levels
 - Perfect for email sharing
 
-## 📄 Document Management
+## <i class="fas fa-file-alt"></i> Document Management
 
 **[PDF Merger](https://fixmypdf.in/merge.html)**
 - Combine multiple PDFs seamlessly
@@ -32,7 +32,7 @@ Discover the right tool for every PDF task with FixMyPDF's comprehensive toolkit
 - Create custom document collections
 - Organize content efficiently
 
-## 🖼️ Image & Conversion Tools
+## <i class="fas fa-images"></i> Image & Conversion Tools
 
 **[Image to PDF](https://fixmypdf.in/image-pdf.html)**
 - Convert JPG, PNG, BMP, WEBP to PDF
@@ -49,7 +49,7 @@ Discover the right tool for every PDF task with FixMyPDF's comprehensive toolkit
 - Maintain formatting and layout
 - Business-ready results
 
-## 🔒 Security & Privacy
+## <i class="fas fa-shield-alt"></i> Security & Privacy
 
 **[Password Protection](https://fixmypdf.in/protect.html)**
 - Secure sensitive documents
@@ -71,7 +71,7 @@ Discover the right tool for every PDF task with FixMyPDF's comprehensive toolkit
 - Professional document sanitization
 - Legal-grade content removal
 
-## ✏️ Editing & Enhancement
+## <i class="fas fa-edit"></i> Editing & Enhancement
 
 **[Digital Signature](https://fixmypdf.in/pdf-sign.html)**
 - Sign documents electronically
@@ -88,7 +88,7 @@ Discover the right tool for every PDF task with FixMyPDF's comprehensive toolkit
 - Custom numbering styles
 - Document organization
 
-## 🎨 Visual Optimization
+## <i class="fas fa-palette"></i> Visual Optimization
 
 **[PDF Dark Mode](https://fixmypdf.in/pdf-dark-mode.html)**
 - Eye-friendly reading experience
@@ -105,7 +105,7 @@ Discover the right tool for every PDF task with FixMyPDF's comprehensive toolkit
 - Reduce file sizes
 - Print optimization
 
-## 🔧 Advanced Tools
+## <i class="fas fa-cogs"></i> Advanced Tools
 
 **[PDF Inspector](https://fixmypdf.in/pdf-inspector.html)**
 - Analyze document properties
@@ -122,7 +122,7 @@ Discover the right tool for every PDF task with FixMyPDF's comprehensive toolkit
 - Track changes and differences
 - Version control support
 
-## 📊 Tool Selection Guide
+## <i class="fas fa-chart-bar"></i> Tool Selection Guide
 
 | Task | Recommended Tool | Use Case |
 |------|------------------|----------|
@@ -133,7 +133,7 @@ Discover the right tool for every PDF task with FixMyPDF's comprehensive toolkit
 | **Clean metadata** | [Metadata Remover](https://fixmypdf.in/metadata-remover.html) | Privacy protection |
 | **Convert images** | [Image to PDF](https://fixmypdf.in/image-pdf.html) | Digital archiving |
 
-## 🎯 Privacy-First Advantage
+## <i class="fas fa-bullseye"></i> Privacy-First Advantage
 
 All FixMyPDF tools process files entirely in your browser:
 - ✅ **No file uploads** - Documents never leave your device

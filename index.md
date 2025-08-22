@@ -75,21 +75,21 @@ Transform any PDF workflow with our extensive collection:
 - Work offline with complete data control
 - Ensure GDPR compliance in document workflows
 
-## 🔧 How It Works
+## <i class="fas fa-cogs"></i> How It Works
 
 1. **Select Your Tool** - Choose from 70+ specialized PDF utilities
 2. **Upload Locally** - Files stay in your browser, never uploaded
 3. **Process Instantly** - Advanced JavaScript engines handle everything
 4. **Download Results** - Get your processed files immediately
 
-## 📈 Trusted by Thousands
+## <i class="fas fa-chart-line"></i> Trusted by Thousands
 
 - **500K+ monthly users** rely on FixMyPDF for their document needs
 - **Zero security incidents** in our 3+ year history
 - **99.9% uptime** with browser-based reliability
 - **4.8/5 star rating** from satisfied users
 
-## 🆓 Completely Free Forever
+## <i class="fas fa-gift"></i> Completely Free Forever
 
 All 70+ tools are completely free with no hidden costs, registration requirements, or file limits. Experience the full power of professional PDF management without any barriers.
 
