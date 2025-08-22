@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {% seo %}
+    
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://fixmypdf.in/favicon.ico" type="image/x-icon">
+    
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{ site.title }}",
+        "description": "{{ site.description }}",
+        "url": "{{ site.url }}{{ site.baseurl }}",
+        "publisher": {
+            "@type": "Organization",
+            "name": "FixMyPDF",
+            "url": "https://fixmypdf.in"
+        }
+    }
+    </script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="{{ '/' | relative_url }}" class="logo">
+                    <strong>FixMyPDF</strong> Resources
+                </a>
+                
+                <ul class="nav-links">
+                    {% for item in site.navigation %}
+                        {% if item.external %}
+                            <li><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a></li>
+                        {% else %}
+                            <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>FixMyPDF Tools</h4>
+                    <ul>
+                        <li><a href="https://fixmypdf.in/compressor.html">PDF Compressor</a></li>
+                        <li><a href="https://fixmypdf.in/merge.html">PDF Merger</a></li>
+                        <li><a href="https://fixmypdf.in/split.html">PDF Splitter</a></li>
+                        <li><a href="https://fixmypdf.in">View All 70+ Tools</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+                        <li><a href="{{ '/guides/' | relative_url }}">User Guides</a></li>
+                        <li><a href="{{ '/tools/' | relative_url }}">Tool Reviews</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="https://fixmypdf.in/about.html">About</a></li>
+                        <li><a href="https://fixmypdf.in/privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="https://fixmypdf.in/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; {{ 'now' | date: '%Y' }} FixMyPDF. Privacy-first PDF tools for everyone.</p>
+                <p>
+                    <a href="https://fixmypdf.in">Main Site</a> | 
+                    <a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a> |
+                    Built with Jekyll & GitHub Pages
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Analytics -->
+    {% if site.google_analytics %}
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '{{ site.google_analytics }}');
+        </script>
+    {% endif %}
+</body>
+</html>
